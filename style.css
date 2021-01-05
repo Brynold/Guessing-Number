@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+* {
+  margin: 5px;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #333;
+  color: #eee;
+  font-family: "Press Start 2P", sans-serif;
+
+}
+
+header {
+  height: 35vh;
+  position: relative;
+  border-bottom: 7px solid #eee;
+}
+main {
+  height: 65vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.left {
+  width: 52rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right {
+  width: 52rem;
+  font-size: 2rem;
+}
+
+/* Header */
+h1 {
+  position: absolute;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.limit {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.btn {
+  padding: 20px 30px;
+  background-color: #eee;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+
+.number {
+  position: absolute;
+  padding: 30px 30px;
+  width: 7rem;
+  border: 1px solid;
+  background-color: #eee;
+  color:#333;
+  font-size: 2rem;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin-top: 25vh;
+}
+.custNumber{
+    background: none;
+    display: block;
+    border:1px solid;
+    font-family: inherit;
+    color: inherit;
+    width: 20rem;
+    font-size: 2rem;
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+
+}
+
+.message{
+    margin-bottom: 5rem;
+   
+}
+.labelScore{
+    margin-bottom: 2rem;
+}
+
+
+
